@@ -1,0 +1,835 @@
+[
+ {
+  "key": "audio/music/boss",
+  "path": "audio/music/boss.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/music/day",
+  "path": "audio/music/day.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/music/menu",
+  "path": "audio/music/menu.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/music/night",
+  "path": "audio/music/night.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/alarm_0",
+  "path": "audio/sfx/alarm_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/ban_0",
+  "path": "audio/sfx/ban_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/ban_1",
+  "path": "audio/sfx/ban_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bite_0",
+  "path": "audio/sfx/bite_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bite_1",
+  "path": "audio/sfx/bite_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/borer_0",
+  "path": "audio/sfx/borer_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/borer_1",
+  "path": "audio/sfx/borer_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/boss_0",
+  "path": "audio/sfx/boss_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bosswarn_0",
+  "path": "audio/sfx/bosswarn_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bosswithdraw_0",
+  "path": "audio/sfx/bosswithdraw_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/break_0",
+  "path": "audio/sfx/break_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/break_1",
+  "path": "audio/sfx/break_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/break_2",
+  "path": "audio/sfx/break_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bugdie_0",
+  "path": "audio/sfx/bugdie_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bugdie_1",
+  "path": "audio/sfx/bugdie_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bugdie_2",
+  "path": "audio/sfx/bugdie_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bugdie_3",
+  "path": "audio/sfx/bugdie_3.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bugdie_4",
+  "path": "audio/sfx/bugdie_4.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/bugdie_5",
+  "path": "audio/sfx/bugdie_5.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/build_0",
+  "path": "audio/sfx/build_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/build_1",
+  "path": "audio/sfx/build_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/build_2",
+  "path": "audio/sfx/build_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/build_3",
+  "path": "audio/sfx/build_3.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/charge_0",
+  "path": "audio/sfx/charge_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/click_0",
+  "path": "audio/sfx/click_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/click_1",
+  "path": "audio/sfx/click_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/click_2",
+  "path": "audio/sfx/click_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/close_0",
+  "path": "audio/sfx/close_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/close_1",
+  "path": "audio/sfx/close_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/confirm_0",
+  "path": "audio/sfx/confirm_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/corehit_0",
+  "path": "audio/sfx/corehit_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/corehit_1",
+  "path": "audio/sfx/corehit_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/corehit_2",
+  "path": "audio/sfx/corehit_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/crack_0",
+  "path": "audio/sfx/crack_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/crumble_0",
+  "path": "audio/sfx/crumble_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/crumble_1",
+  "path": "audio/sfx/crumble_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/crumble_2",
+  "path": "audio/sfx/crumble_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/cryo_0",
+  "path": "audio/sfx/cryo_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/dawn_0",
+  "path": "audio/sfx/dawn_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/death_0",
+  "path": "audio/sfx/death_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/death_1",
+  "path": "audio/sfx/death_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/death_2",
+  "path": "audio/sfx/death_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/defeat_0",
+  "path": "audio/sfx/defeat_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/deliver_0",
+  "path": "audio/sfx/deliver_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/deliver_1",
+  "path": "audio/sfx/deliver_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/deliver_2",
+  "path": "audio/sfx/deliver_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/detonate_0",
+  "path": "audio/sfx/detonate_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/dig_0",
+  "path": "audio/sfx/dig_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/dig_1",
+  "path": "audio/sfx/dig_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/dig_2",
+  "path": "audio/sfx/dig_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/dig_3",
+  "path": "audio/sfx/dig_3.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/dig_4",
+  "path": "audio/sfx/dig_4.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/draft_0",
+  "path": "audio/sfx/draft_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/drill_0",
+  "path": "audio/sfx/drill_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/drill_start_0",
+  "path": "audio/sfx/drill_start_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/drill_stop_0",
+  "path": "audio/sfx/drill_stop_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/drone_0",
+  "path": "audio/sfx/drone_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/eggs_0",
+  "path": "audio/sfx/eggs_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/emerge_0",
+  "path": "audio/sfx/emerge_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/error_0",
+  "path": "audio/sfx/error_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/error_1",
+  "path": "audio/sfx/error_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/event_0",
+  "path": "audio/sfx/event_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/explode_0",
+  "path": "audio/sfx/explode_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/explode_1",
+  "path": "audio/sfx/explode_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/explode_2",
+  "path": "audio/sfx/explode_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/explode_3",
+  "path": "audio/sfx/explode_3.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/explode_4",
+  "path": "audio/sfx/explode_4.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/explode_big_0",
+  "path": "audio/sfx/explode_big_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/explode_big_1",
+  "path": "audio/sfx/explode_big_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/flakcall_0",
+  "path": "audio/sfx/flakcall_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/flakfire_0",
+  "path": "audio/sfx/flakfire_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/flame_0",
+  "path": "audio/sfx/flame_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/freeze_0",
+  "path": "audio/sfx/freeze_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/fuse_0",
+  "path": "audio/sfx/fuse_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/gshot_0",
+  "path": "audio/sfx/gshot_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/gshot_1",
+  "path": "audio/sfx/gshot_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hatch_0",
+  "path": "audio/sfx/hatch_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hatch_1",
+  "path": "audio/sfx/hatch_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/heal_0",
+  "path": "audio/sfx/heal_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hit_0",
+  "path": "audio/sfx/hit_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hit_1",
+  "path": "audio/sfx/hit_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hit_2",
+  "path": "audio/sfx/hit_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hit_3",
+  "path": "audio/sfx/hit_3.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hit_4",
+  "path": "audio/sfx/hit_4.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hum_0",
+  "path": "audio/sfx/hum_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hurt_0",
+  "path": "audio/sfx/hurt_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hurt_1",
+  "path": "audio/sfx/hurt_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hurt_2",
+  "path": "audio/sfx/hurt_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hurt_3",
+  "path": "audio/sfx/hurt_3.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hurt_4",
+  "path": "audio/sfx/hurt_4.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/hurt_5",
+  "path": "audio/sfx/hurt_5.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/lance_0",
+  "path": "audio/sfx/lance_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/laser_0",
+  "path": "audio/sfx/laser_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/laser_1",
+  "path": "audio/sfx/laser_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/laser_2",
+  "path": "audio/sfx/laser_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/laser_3",
+  "path": "audio/sfx/laser_3.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/laser_4",
+  "path": "audio/sfx/laser_4.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/launch_0",
+  "path": "audio/sfx/launch_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/mg_0",
+  "path": "audio/sfx/mg_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/minigun_0",
+  "path": "audio/sfx/minigun_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/minigun_1",
+  "path": "audio/sfx/minigun_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/minigun_2",
+  "path": "audio/sfx/minigun_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/mortar_0",
+  "path": "audio/sfx/mortar_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/nightfall_0",
+  "path": "audio/sfx/nightfall_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/open_0",
+  "path": "audio/sfx/open_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/open_1",
+  "path": "audio/sfx/open_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/oredrop_0",
+  "path": "audio/sfx/oredrop_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/oredrop_1",
+  "path": "audio/sfx/oredrop_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/oredrop_2",
+  "path": "audio/sfx/oredrop_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/overclock_0",
+  "path": "audio/sfx/overclock_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/overheat_0",
+  "path": "audio/sfx/overheat_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/phoenix_0",
+  "path": "audio/sfx/phoenix_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/pick_0",
+  "path": "audio/sfx/pick_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/pick_1",
+  "path": "audio/sfx/pick_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/pick_2",
+  "path": "audio/sfx/pick_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/pickup_0",
+  "path": "audio/sfx/pickup_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/pickup_1",
+  "path": "audio/sfx/pickup_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/pickup_2",
+  "path": "audio/sfx/pickup_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/produce_0",
+  "path": "audio/sfx/produce_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/purchase_0",
+  "path": "audio/sfx/purchase_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/purchase_1",
+  "path": "audio/sfx/purchase_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/rail_0",
+  "path": "audio/sfx/rail_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/rail_1",
+  "path": "audio/sfx/rail_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/rail_2",
+  "path": "audio/sfx/rail_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/recruit_0",
+  "path": "audio/sfx/recruit_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/recruit_1",
+  "path": "audio/sfx/recruit_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/reroll_0",
+  "path": "audio/sfx/reroll_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/rift_0",
+  "path": "audio/sfx/rift_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/rocket_0",
+  "path": "audio/sfx/rocket_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/sell_0",
+  "path": "audio/sfx/sell_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/sell_1",
+  "path": "audio/sfx/sell_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/sell_2",
+  "path": "audio/sfx/sell_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/shieldbreak_0",
+  "path": "audio/sfx/shieldbreak_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/shieldbreak_1",
+  "path": "audio/sfx/shieldbreak_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/spit_0",
+  "path": "audio/sfx/spit_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/spore_0",
+  "path": "audio/sfx/spore_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/spore_1",
+  "path": "audio/sfx/spore_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/spore_2",
+  "path": "audio/sfx/spore_2.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/squish_0",
+  "path": "audio/sfx/squish_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/squish_1",
+  "path": "audio/sfx/squish_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/stasis_0",
+  "path": "audio/sfx/stasis_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/steam_0",
+  "path": "audio/sfx/steam_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/sun_0",
+  "path": "audio/sfx/sun_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/supply_0",
+  "path": "audio/sfx/supply_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/supply_1",
+  "path": "audio/sfx/supply_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/swallow_0",
+  "path": "audio/sfx/swallow_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/swell_0",
+  "path": "audio/sfx/swell_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/tag_0",
+  "path": "audio/sfx/tag_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/tag_1",
+  "path": "audio/sfx/tag_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/tesla_0",
+  "path": "audio/sfx/tesla_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/tesla_1",
+  "path": "audio/sfx/tesla_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/toggle_0",
+  "path": "audio/sfx/toggle_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/toggle_1",
+  "path": "audio/sfx/toggle_1.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/untag_0",
+  "path": "audio/sfx/untag_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/upgrade_0",
+  "path": "audio/sfx/upgrade_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/victory_0",
+  "path": "audio/sfx/victory_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "audio/sfx/weld_0",
+  "path": "audio/sfx/weld_0.mp3",
+  "type": "audio"
+ },
+ {
+  "key": "fonts/JetBrainsMono-subset",
+  "path": "fonts/JetBrainsMono-subset.woff2",
+  "type": "font",
+  "meta": {
+   "family": "DC Mono",
+   "weight": "100 800"
+  }
+ },
+ {
+  "key": "fonts/VT323-subset",
+  "path": "fonts/VT323-subset.woff2",
+  "type": "font",
+  "meta": {
+   "family": "DC Terminal",
+   "weight": "400"
+  }
+ },
+ {
+  "key": "sprites/licensed",
+  "path": "sprites/licensed.png",
+  "type": "image"
+ },
+ {
+  "key": "sprites/licensed-atlas",
+  "path": "sprites/licensed-atlas.json",
+  "type": "text"
+ }
+]

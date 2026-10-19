@@ -1,0 +1,23 @@
+[
+  {
+    "file": "01-original-publication.zip",
+    "title": "Original publication package",
+    "bytes": 15249002,
+    "sha256": "3d0ad5cf84ffad28ee8c12be26b87f0af22f4bb779bb628578d5aa0fbfc0e182",
+    "game_sha256": "659ca90a7b44334b3cb4603d3ad3c617875f625632957f73023a5ab200e4abec"
+  },
+  {
+    "file": "02-thumbnail-update.zip",
+    "title": "Thumbnail update",
+    "bytes": 14965664,
+    "sha256": "ce15f0d9fd60aba695fa67e48a641e68b9c892fd1044a99c22b44741dea1ae02",
+    "game_sha256": "659ca90a7b44334b3cb4603d3ad3c617875f625632957f73023a5ab200e4abec"
+  },
+  {
+    "file": "03-mobile-cover-update.zip",
+    "title": "Mobile cover update",
+    "bytes": 15881303,
+    "sha256": "f0a85fe29a3ce8d48baa837f20e4910bb1ba96fbc8bb5f4e4ea9528f6ce3a0b8",
+    "game_sha256": "659ca90a7b44334b3cb4603d3ad3c617875f625632957f73023a5ab200e4abec"
+  }
+]
