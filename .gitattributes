@@ -1,0 +1,5 @@
+# Keep generated bundles and research documents out of source-language statistics.
+release/** linguist-generated=true
+research/** linguist-documentation=true
+public/assets/** linguist-vendored=true
+media/** linguist-vendored=true
