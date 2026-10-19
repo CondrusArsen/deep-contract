@@ -1,23 +1,27 @@
 [
   {
-    "file": "01-original-publication.zip",
-    "title": "Original publication package",
-    "bytes": 15249002,
-    "sha256": "3d0ad5cf84ffad28ee8c12be26b87f0af22f4bb779bb628578d5aa0fbfc0e182",
-    "game_sha256": "659ca90a7b44334b3cb4603d3ad3c617875f625632957f73023a5ab200e4abec"
+    "file": "DeepContract-playable.zip",
+    "bytes": 13937540,
+    "sha256": "f53240ab90c06248c1771c50df4ebd57699a04a572ce32e9b624cd050064f9c8"
   },
   {
-    "file": "02-thumbnail-update.zip",
-    "title": "Thumbnail update",
-    "bytes": 14965664,
-    "sha256": "ce15f0d9fd60aba695fa67e48a641e68b9c892fd1044a99c22b44741dea1ae02",
-    "game_sha256": "659ca90a7b44334b3cb4603d3ad3c617875f625632957f73023a5ab200e4abec"
+    "file": "Drill-Core-teardown.zip",
+    "bytes": 4097873,
+    "sha256": "bff4c345215285dd2016f8a56bd208cc5ee29a65f4bb5e7842a2ff646482ce4c"
   },
   {
-    "file": "03-mobile-cover-update.zip",
-    "title": "Mobile cover update",
-    "bytes": 15881303,
-    "sha256": "f0a85fe29a3ce8d48baa837f20e4910bb1ba96fbc8bb5f4e4ea9528f6ce3a0b8",
-    "game_sha256": "659ca90a7b44334b3cb4603d3ad3c617875f625632957f73023a5ab200e4abec"
+    "file": "DeepContract-standard.zip",
+    "bytes": 15247078,
+    "sha256": "09f355c5cda19e9bcb9512a400307335dbd16e60553a25eec7773b54111aa69c"
+  },
+  {
+    "file": "DeepContract-thumbnail.zip",
+    "bytes": 14963736,
+    "sha256": "fb9f43614e717f5206f20085a3531da5f6112dbf03097a0d357678c95df7a242"
+  },
+  {
+    "file": "DeepContract-mobile.zip",
+    "bytes": 15879375,
+    "sha256": "6b48c1ec1f22987cc284e0858da899d54ecd90d14121832926632305c75d4267"
   }
 ]

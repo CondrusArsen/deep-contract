@@ -3,3 +3,5 @@ release/** linguist-generated=true
 research/** linguist-documentation=true
 public/assets/** linguist-vendored=true
 media/** linguist-vendored=true
+docs/index.html linguist-generated=true
+docs/research.html linguist-documentation=true

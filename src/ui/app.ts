@@ -6,7 +6,6 @@ import { clearRun, loadProfile, loadRun, saveProfile, saveRun } from '../core/sa
 import type { ContractDef, GameState, Setup } from '../core/types';
 import { audio } from '../audio/audio';
 import { TIERS } from '../core/data/contracts';
-import { gameplay, moment, progress, track } from '../platform/bloomplay';
 import { ACH_BY_KEY, type AchDef } from '../core/data/achievements';
 import { BARREL } from '../render/art/structures';
 import { frame } from '../render/pixel';
@@ -39,11 +38,10 @@ export class App {
   saveProfile() { saveProfile(this.profile); }
 
   /** Earn an achievement. The first time: reward minerals, remember it and show it (unless `quiet`, when the caller
-   *  shows it). The platform is told every time (it keeps its own record). Returns the definition when new. */
+   *  shows it). Returns the definition when new. */
   achieve(key: string, quiet = false): AchDef | null {
     const d = ACH_BY_KEY[key];
     if (!d) return null;
-    moment(d.name);
     const got = (this.profile.achievements ??= {});
     if (got[key]) return null;
     got[key] = Date.now();
@@ -60,13 +58,13 @@ export class App {
     this.root.appendChild(el);
     el.scrollTop = 0;
   }
-  closeGame() { if (this.game) gameplay(false); this.game?.destroy(); this.game = null; }
-  /** The platform opened its overlay or the tab was hidden: save, show the pause menu, silence the audio. */
+  closeGame() { this.game?.destroy(); this.game = null; }
+  /** The tab was hidden: save, show the pause menu, silence the audio. */
   platformPause() { audio.suspend(); this.game?.platformPause(); }
 
   start() { this.toTitle(); }
   toTitle() { this.closeGame(); audio.setMusic('menu'); this.show(screens.title(this)); }
-  toHq() { this.closeGame(); audio.setMusic('menu'); this.show(screens.hq(this)); progress(`Division level ${this.divLevel}`); }
+  toHq() { this.closeGame(); audio.setMusic('menu'); this.show(screens.hq(this)); }
   toBoard() { this.show(screens.board(this)); }
   toUpgrades() { this.show(screens.upgrades(this)); }
   toArchive() { this.show(screens.archive(this)); }
@@ -97,10 +95,9 @@ export class App {
     this.closeGame();
     this.game = new GameView(this, s);
     this.game.mount(this.root);
-    gameplay(true);
     if (s.contract.biome === 'frost') this.achieve('frost');
     if (s.contract.biome === 'jungle') this.achieve('jungle');
-    track('contract_start', { tier: s.contract.tier, biome: s.contract.biome, platform: s.setup.platform, day: s.day });
+    
   }
 
   /** Straight from the title into the guided first contract (no menus before play). */
@@ -108,7 +105,7 @@ export class App {
     const c = makeContract(this.profile.boardSeed * 31 + 7, 1, { biomes: ['cave'], blueprints: this.profile.blueprints, perks: this.profile.owned });
     this.startContract(c, { platform: 'mule', core: 'standard', dept: null, startTechs: [], bonuses: [] });
   }
-  skipTutorial() { this.profile.tutorial = 'done'; this.saveProfile(); track('tutorial_skip', {}); }
+  skipTutorial() { this.profile.tutorial = 'done'; this.saveProfile(); }
 
   quickRestart(s: GameState) {
     clearRun();
@@ -119,7 +116,7 @@ export class App {
     if (!s.result) return;
     const out = applyResult(this.profile, s, s.result);
     const r = s.result;
-    track('contract_end', { success: r.success, tier: s.contract.tier, biome: s.contract.biome, depth: r.depth, days: r.days, core: r.corePct });
+    
     const earned: AchDef[] = [];
     const got = (k: string) => { const d = this.achieve(k, true); if (d) earned.push(d); };
     if (r.success) {

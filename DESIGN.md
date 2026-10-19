@@ -1,8 +1,8 @@
 # Deep Contract — design notes
 
 Original mobile-first web game reconstructing the *design* of Drill Core 1.0 as documented in
-`Indie Teardown — Drill Core — EN.html` (Build layer is authoritative). No names, art, audio or text of the
-original are used; evidence frames were used as rule/visual reference only (`docs/reference/fig/`).
+[Drill Core research report](research/Drill-Core-teardown.html) (Build layer is authoritative). No names, art, audio or text of the
+original are used; evidence frames were used as rule/visual reference only.
 
 Status legend used below: **V/D** = rule kept from the teardown (verified / developer source),
 **U→** = design decision taken here for an unknown item, **A** = adaptation for touch/portrait.
@@ -97,8 +97,8 @@ amounts shown red.
   Qualifications (2 per contract) unlock blueprints (new cards in future draft pools) + 150 XP.
 * **Saving (U→)** Profile always saved. Contract: full snapshot at landing, at every dawn (SAVING shown on
   descents), when the pause menu opens and when the page is hidden; Continue resumes that snapshot.
-* **Onboarding: the guided first contract (U→, after Yelnur's playtest 2026-09-30)** "The tutorial is the loop"
-  (Bloom Brain: Dig & Clean, Mine per Click, Pickaxe Swing Escape, Dig to Escape; Tizzy's 90-second rule). A new
+* **Onboarding: the guided first contract (U→, playtest revision 2026-09-30)** "The tutorial is the loop"
+  A new
   profile's title screen starts the first contract directly. One objective at a time on a card under the HUD, one
   target: a pulsing HUD/sheet button or a world arrow with an outline (edge arrow when off screen; tapping the card
   re-frames the view). Every target carries an arrow and a caption: buttons say HOLD / TAP / SPEED UP, world targets
@@ -118,7 +118,7 @@ amounts shown red.
   rock does not count towards the quota until a way to it is tagged.
 * **Early rewards (U→)** Delivered iron/crimsite/coal fly into their HUD counters, which bump; delivery sound up.
   Workers gain XP from work (block dug, load hauled, borer killed) and level up at 5/14/30/55 XP (max 5): +8% speed and
-  +12% digging (+10% guard damage) per level, with a LVL flash. Twelve achievements (the bug.games moments) pay
+  +12% digging (+10% guard damage) per level, with a LVL flash. Twelve achievements pay
   minerals the first time and show a medal; the Archive lists them. The result screen lists the achievements from the
   launch and what the next division level unlocks, with an XP bar.
 * **Touch input (A)** World taps, long-presses and drags run on pointer events; the browser's follow-up click

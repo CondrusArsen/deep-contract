@@ -6,7 +6,6 @@ import { coalSecured, digStep, nearestBlock, tutActive, tutTargetPos, tutTick, T
 import { B } from '../core/types';
 import { W } from '../core/world';
 import { audio } from '../audio/audio';
-import { track } from '../platform/bloomplay';
 import { h } from './dom';
 import type { GameView } from './game';
 
@@ -43,7 +42,7 @@ export class Guide {
     }
     clearTimeout(this.skipArmed); this.skipArmed = 0;
     s.tut.skipped = true;
-    track('tutorial_skip', { done: s.tut.done.length, t: Math.round(s.tut.t) });
+    
     this.g.app.skipTutorial();
     this.clearTarget();
     this.card.classList.add('hidden');
@@ -124,7 +123,7 @@ export class Guide {
     const g = this.g, s = g.s;
     const { finished, current } = tutTick(s, rdt);
     for (const id of finished) {
-      track('tutorial_step', { id, n: s.tut!.done.length, t: Math.round(s.tut!.t) });
+      
       audio.play('confirm');
       this.card.classList.remove('flash'); void this.card.offsetWidth; this.card.classList.add('flash');
     }

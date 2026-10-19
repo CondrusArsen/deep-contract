@@ -20,7 +20,7 @@ function set(key: string, v: string | null) {
 
 export type SaveName = 'profile' | 'run';
 const KEYS: Record<SaveName, string> = { profile: PROFILE_KEY, run: RUN_KEY };
-/** Receives every save write (the bug.games player store when the game runs there — see platform/bloomplay.ts). */
+/** Optional observer for save writes. */
 type Mirror = (name: SaveName, data: string | null, at: number) => void;
 let mirror: Mirror | null = null;
 export function setSaveMirror(m: Mirror | null) { mirror = m; }

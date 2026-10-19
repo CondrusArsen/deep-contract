@@ -1,6 +1,5 @@
 // The contract screen: canvas + HUD + input + sheets. Drives the simulation with a fixed 60 Hz step.
 import { abilityReady, useAbility } from '../core/abilities';
-import { progress } from '../platform/bloomplay';
 import { TIERS } from '../core/data/contracts';
 import { BUILDINGS } from '../core/data/buildings';
 import { ENEMIES } from '../core/data/enemies';
@@ -362,7 +361,6 @@ export class GameView {
         break;
       case 'save':
         saveRun(s);
-        progress(`${TIERS[s.contract.tier - 1].name} · ${s.contract.planet} · ${s.depth}/${s.contract.targetStrata * 50} m · day ${s.day}`);
         break;
       case 'pick': this.app.achieve('tech'); break;
       case 'event': case 'forecast': this.refreshEventBanners(); break;

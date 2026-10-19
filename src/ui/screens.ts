@@ -6,7 +6,6 @@ import { CORES, DEPTS, deptLevel, PLATFORMS } from '../core/data/platforms';
 import { ALL_MODS, BLUEPRINTS, BONUS_MODS } from '../core/data/techs';
 import { board as boardOf, buy, canBuy, coresOf, DEPT_IDS, deptsAvailable, divLevel, platformSlots, platformsOf, tierUnlocked, type ApplyOut } from '../core/profile';
 import { hasRun, loadRun, storageOk, wipeSaves } from '../core/save';
-import { flushSaves, track } from '../platform/bloomplay';
 import type { CoreId, DeptId, GameState, PlatformId, Setup } from '../core/types';
 import { audio } from '../audio/audio';
 import { CREDITS_HTML } from './credits';
@@ -231,7 +230,7 @@ export function upgrades(app: App) {
         h('span', { class: 'muted small' }, `${BRANCHES[n.branch]} · division level ${n.lvl}${n.req ? ` · requires ${META_BY_ID[n.req].name}` : ''}`),
         h('h3', null, n.name), h('p', { class: 'small', style: 'margin:0' }, n.text),
         h('div', { class: 'row between' }, h('span', { class: 'small muted' }, 'Cost'), minerals(p.minerals, n.cost)),
-        owned ? h('div', { class: 'note' }, 'Purchased') : h('button', { class: `btn primary wide ${p.tutorial === 'upgrade' && !why ? 'tut-pulse' : ''}`, disabled: !!why, on: { click: () => { const w = buy(p, n.id); if (!w) { if (p.tutorial === 'upgrade') { p.tutorial = 'done'; done = true; track('tutorial_complete', {}); } app.saveProfile(); audio.play('purchase'); } else audio.play('error'); render(); } } }, why ?? 'PURCHASE')));
+        owned ? h('div', { class: 'note' }, 'Purchased') : h('button', { class: `btn primary wide ${p.tutorial === 'upgrade' && !why ? 'tut-pulse' : ''}`, disabled: !!why, on: { click: () => { const w = buy(p, n.id); if (!w) { if (p.tutorial === 'upgrade') { p.tutorial = 'done'; done = true; } app.saveProfile(); audio.play('purchase'); } else audio.play('error'); render(); } } }, why ?? 'PURCHASE')));
     } else inner.append(h('p', { class: 'small muted' }, 'Tap a node. Prices are in ochre, jade and void — void comes from tier 3+ contracts and rare deep deposits.'));
   };
   render();
@@ -274,9 +273,9 @@ function settingsBody(app: App) {
     return h('label', { class: 'switch small' }, label, inp);
   };
   const resetHints = h('button', { class: 'btn wide', on: { click: () => { app.profile.seen = {}; app.saveProfile(); audio.play('click'); } } }, 'SHOW TUTORIAL HINTS AGAIN');
-  // hold to confirm (browser dialogs may be disabled inside the platform's iframe)
+  // Hold to confirm before clearing saved progress.
   const wipe = h('button', { class: 'btn danger wide' }, 'HOLD: ERASE ALL PROGRESS');
-  holdButton(wipe, 1500, async () => { wipeSaves(); await flushSaves(); location.reload(); });
+  holdButton(wipe, 1500, () => { wipeSaves(); location.reload(); });
   return [slider('Master volume', 'master'), slider('Music', 'music'), slider('Sound effects', 'sfx'), sw('Screen shake', 'shake'), sw('CRT scanlines', 'crt'), sw('Pause while build menus are open', 'pauseMenus'), sw('Tutorial hints', 'hints'), resetHints, wipe];
 }
 export function settings(app: App, backFn: () => void) {
