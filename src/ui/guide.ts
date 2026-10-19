@@ -42,7 +42,7 @@ export class Guide {
     }
     clearTimeout(this.skipArmed); this.skipArmed = 0;
     s.tut.skipped = true;
-    
+
     this.g.app.skipTutorial();
     this.clearTarget();
     this.card.classList.add('hidden');
@@ -123,7 +123,7 @@ export class Guide {
     const g = this.g, s = g.s;
     const { finished, current } = tutTick(s, rdt);
     for (const id of finished) {
-      
+
       audio.play('confirm');
       this.card.classList.remove('flash'); void this.card.offsetWidth; this.card.classList.add('flash');
     }

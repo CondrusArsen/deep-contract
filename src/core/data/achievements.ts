@@ -1,5 +1,4 @@
-// Achievements: earned once per profile, each with a small mineral reward. The names are also the "moments"
-// declared in the bug.games store manifest (tools/store/game.json) — keep them identical and in this order.
+// Achievements are earned once per profile, each with a small mineral reward.
 import type { Minerals } from '../types';
 
 export interface AchDef { key: string; name: string; text: string; reward: Minerals }

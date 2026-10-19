@@ -97,7 +97,7 @@ export class App {
     this.game.mount(this.root);
     if (s.contract.biome === 'frost') this.achieve('frost');
     if (s.contract.biome === 'jungle') this.achieve('jungle');
-    
+
   }
 
   /** Straight from the title into the guided first contract (no menus before play). */
@@ -116,7 +116,7 @@ export class App {
     if (!s.result) return;
     const out = applyResult(this.profile, s, s.result);
     const r = s.result;
-    
+
     const earned: AchDef[] = [];
     const got = (k: string) => { const d = this.achieve(k, true); if (d) earned.push(d); };
     if (r.success) {
