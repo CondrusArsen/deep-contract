@@ -3,7 +3,7 @@
 **A mining-management + tower-defence mobile web game, built from my own teardown of *Drill Core* with an AI-assisted workflow.**
 Mine and grow your crew by day, defend the platform at night, decide when to evacuate with your rewards.
 
-*Built in Sep–Oct 2026 at Bloom Labs together with a teammate, originally for the studio's web platform.*
+*Built in Sep–Oct 2026 at Bloom Labs, originally for the studio's web platform.*
 
 **[▶ Play in browser](https://condrusarsen.github.io/deep-contract/) · [Drill Core teardown](https://condrusarsen.github.io/deep-contract/research.html) · [Offline download](https://github.com/CondrusArsen/deep-contract/releases/tag/v1.0.0)**
 
